@@ -1,0 +1,28 @@
+{
+  "prioritySeries": [
+    "Indian Premier League",
+    "IPL",
+    "ICC Cricket World Cup",
+    "ICC Men's T20 World Cup",
+    "ICC Champions Trophy",
+    "ICC World Test Championship",
+    "Asia Cup",
+    "Border-Gavaskar Trophy"
+  ],
+  "priorityTeams": [
+    "India",
+    "India Women"
+  ],
+  "kohliTeams": [
+    "Royal Challengers Bengaluru",
+    "Royal Challengers Bangalore",
+    "India"
+  ],
+  "relevancePriority": [
+    "kohli",
+    "ipl",
+    "india",
+    "icc",
+    "featured"
+  ]
+}

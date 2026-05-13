@@ -1,0 +1,17 @@
+{
+  "name": "fan-identity-cricket",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fan Identity – Cricket Edition: The ultimate cricket fan engagement app",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build && xcopy /E /I /Y dist ..\\backend\\public",
+    "build:unix": "cd frontend && npm run build && cp -r dist/* ../backend/public/",
+    "start": "cd backend && node src/index.js",
+    "dev": "echo 'Run backend and frontend separately for dev mode'",
+    "seed": "cd backend && npm run seed"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
